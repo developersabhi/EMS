@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 @import "tailwindcss";
 
 @theme {
-  --text-primary: black;
+  /* --color-primary: black; */
+  --font-pacific: "Pacifico", cursive;
 }

@@ -8,7 +8,11 @@ export default {
     extend: {
         colors: {
         primary: "#2563eb",
+        
       },
+      fontFamily: {
+          "pacific" : ["Pacifico", "sans-serif"]
+        }
     },
   },
   plugins: [],
