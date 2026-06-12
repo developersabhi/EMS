@@ -1,10 +1,18 @@
+import {BrowserRouter, Routes, Route, Navigate} from "react-router-dom"
+import Login from "./assets/pages/Login"
+import AdminDashboard from "./assets/pages/AdminDashboard"
+
+
+
 function App() {
   return (
-    <div className="min-h-screen bg-blue-500 flex items-center justify-center">
-      <h1 className="text-4xl font-bold text-white">
-        Tailwind CSS Working 🚀
-      </h1>
-    </div>
+   <BrowserRouter>
+      <Routes>
+        <Route  path="/" element={<Navigate to ="/admin-dashboard" />}></Route>
+        <Route  path="/login" element={<Login />}></Route>
+        <Route  path="/admin-dashboard" element={<AdminDashboard />}></Route>
+      </Routes>
+   </BrowserRouter>
   )
 }
 

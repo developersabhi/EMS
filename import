@@ -1,0 +1,3 @@
+after DB Connect and UserSeed.js code complete =>
+node --env-file=.env userSeed.js
+
