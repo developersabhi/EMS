@@ -1,0 +1,24 @@
+npm create vite@latest
+npm install react-data-table-component styled-components axios react-icons react-router-dom tailwindcss postcss autoprefixer
+
+create folder inside that folder
+npm init -y
+npm install bcrypt cors express jsonwebtoken mongoose multer nodemon path
+
+create index.js file
+
+add to package.jsonwebtokentype module
+start nodemon --env-file= .env index.js
+
+create .env file
+
+
+Package	                                         Use
+react-data-table-component =>	Data ko table format me dikhane ke liye. Sorting, pagination, search jaise features ready-made milte hain. Employee list dikhane me useful.
+styled-components => 	CSS ko JavaScript ke andar likhne ke liye. Component-specific styling kar sakte ho.
+axios	=>              Backend API ko call karne ke liye. Employee add, update, delete, fetch karne me use hoga.
+react-icons =>       	Different icon libraries ke icons use karne ke liye. Edit, Delete, Search, User icons etc.
+react-router-dom => 	React application me page navigation ke liye. Login → Dashboard → Employee List → Add Employee pages ke routes banane me use hota hai.
+tailwindcss	=>          Utility-first CSS framework. Fast UI design karne ke liye.
+postcss	=>              CSS ko process karne ke liye. Tailwind internally iska use karta hai.
+autoprefixer =>      	Browser compatibility ke liye CSS prefixes automatically add karta hai (-webkit-, -moz-, etc.).
