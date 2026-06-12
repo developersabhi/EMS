@@ -1,0 +1,51 @@
+Login kar lo.
+
+Top-right me + icon par click karo.
+New repository select karo.
+Repository name:
+Description (optional):
+Public ya Private select karo.
+README initialize mat karna (unchecked rakho).
+Create repository par click karo.
+
+Repository create hone ke baad URL milega:
+https://github.com/YourUserName/EMS.git
+Is URL ko copy kar lo.
+
+Git Initialize Karo
+git init
+
+Git Status Check Karo
+git status
+
+Files Stage Karo
+git add .
+
+git status
+Ab files green color me dikhengi.
+
+First Commit Karo
+git commit -m "Initial EMS project setup"
+
+GitHub Repository Connect Karo
+
+YourUserName ki jagah apna GitHub username lagao.
+git remote add origin https://github.com/YourUserName/EMS.git
+
+git remote -v
+Output:
+origin  https://github.com/YourUserName/EMS.git (fetch)
+origin  https://github.com/YourUserName/EMS.git (push)
+
+Main Branch Set Karo
+git branch -M main
+
+Push Karo
+git push -u origin main
+
+Future Updates
+Jab bhi code change karo:
+
+git add .
+git commit -m "Added login page"
+git push
