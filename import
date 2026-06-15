@@ -1,3 +1,16 @@
+import Login from "./frontend/src/assets/pages/Login"
+
 after DB Connect and UserSeed.js code complete =>
 node --env-file=.env userSeed.js
 
+
+Login=== > 
+    const [email, setEmail] = useState('')
+    const [password, setPassword] = useState('')
+and add onchange in the input field
+
+onChange={(e)=>setEmail(e.target.value)
+
+onChange={(e)=>setPassword(e.target.value)
+
+onSubmit={handleSubmit}
